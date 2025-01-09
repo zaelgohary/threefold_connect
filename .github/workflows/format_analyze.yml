@@ -19,7 +19,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          flutter-version: '3.20.0'
+          flutter-version: 'latest'
 
       - name: Verify Flutter Setup
         run: flutter doctor
