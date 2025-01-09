@@ -26,6 +26,9 @@ jobs:
       - name: Get dependencies
         run: cd app && flutter pub get
 
+      - name: Init build script
+        run: cd app && ./build.sh --init 
+
       - name: Format Dart files
         run: dart format app/lib
 
